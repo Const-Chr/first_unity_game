@@ -44,10 +44,15 @@ public class CharacterSetup : MonoBehaviour
         string[] files = Directory.GetFiles(path);
         foreach (string file in files)
         {
+            
             GameObject button = Instantiate(buttonPrefab, savedGamesButtonsParent);
             string fileName = Path.GetFileName(file);
+            if (fileName == "SoundSettings.json")
+                continue;
+
             string name = fileName.Split('_')[0];
             button.GetComponent<SavedGameButton>().Init(() => {
+                button.name = fileName;
                 PlayerData.Instance.LoadPlayerData(file);
                 selectedLevel = LevelSelector.SelectedlLevel();
                 if (selectedLevel == 1 || selectedLevel == 2 || selectedLevel == 3)

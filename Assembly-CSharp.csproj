@@ -60,7 +60,7 @@
     <Compile Include="Assets\Scripts\CollisionDeath.cs" />
     <Compile Include="Assets\Scripts\ItemProps.cs" />
     <Compile Include="Assets\Scripts\Utilities\Sounds.cs" />
-    <Compile Include="Assets\StudentWork\NavMeshAgentVision_nm19716.cs" />
+    <Compile Include="Assets\Scripts\NavMeshAgentVision_v2.cs" />
     <Compile Include="Assets\Scripts\TestInputFieldEvents.cs" />
     <Compile Include="Assets\Scripts\Utilities\GenericSingleton.cs" />
     <Compile Include="Assets\Scripts\Camera\FirstPersonMovement.cs" />
@@ -76,7 +76,6 @@
     <Compile Include="Assets\Scripts\Utilities\Command.cs" />
     <Compile Include="Assets\Homeworks\Homework2.cs" />
     <Compile Include="Assets\Scripts\Utilities\SavedGameButton.cs" />
-    <Compile Include="Assets\StudentWork\Homework4_nm19716.cs" />
     <Compile Include="Assets\Scripts\EarRotation.cs" />
     <Compile Include="Assets\Scripts\LoadingScreen.cs" />
     <Compile Include="Assets\Scripts\Utilities\AbstractPrefabClass.cs" />
@@ -95,19 +94,16 @@
     <Compile Include="Assets\Jammo-Character\Scripts\MovementInput.cs" />
     <Compile Include="Assets\Scripts\Utilities\PlayerDataObject.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraCollision.cs" />
-    <Compile Include="Assets\StudentWork\Homework3_nm19716.cs" />
     <Compile Include="Assets\Volumetric_Lights\Assets\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
     <Compile Include="Assets\Scripts\Player\SimpleControls.cs" />
     <Compile Include="Assets\Scripts\Utilities\NotificationManager.cs" />
     <Compile Include="Assets\Scripts\LevelSelector.cs" />
-    <Compile Include="Assets\StudentWork\Laser_Movement.cs" />
+    <Compile Include="Assets\Scripts\Laser_Movement.cs" />
     <Compile Include="Assets\Homeworks\Homework1.cs" />
     <Compile Include="Assets\Scripts\Utilities\ExtensionMethods.cs" />
     <Compile Include="Assets\Scripts\Utilities\ClassController.cs" />
-    <Compile Include="Assets\StudentWork\Homework2_nm19716.cs" />
     <Compile Include="Assets\Scripts\Utilities\Utilities.cs" />
     <Compile Include="Assets\Scripts\Examples\ExampleCsharp.cs" />
-    <Compile Include="Assets\StudentWork\Homework1_nm19716.cs" />
     <Compile Include="Assets\AddMeshCollidersToChildren.cs" />
   </ItemGroup>
   <ItemGroup>

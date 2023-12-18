@@ -14,7 +14,7 @@ public class CollisionDeath : MonoBehaviour
         endGame = false;
         firstLoop = true;
         //subscribe to objectvisibilitychanged
-        NavMeshAgentVision_nm19716.ObjectVisibilityChanged += OnObjectVisibilityChanged;
+        NavMeshAgentVision_v2.ObjectVisibilityChanged += OnObjectVisibilityChanged;
     }
 
 
@@ -94,6 +94,6 @@ public class CollisionDeath : MonoBehaviour
     public void OnDestroy()
     {
         //unsubscribe to objectvisibilitychanged
-        NavMeshAgentVision_nm19716.ObjectVisibilityChanged -= OnObjectVisibilityChanged;
+        NavMeshAgentVision_v2.ObjectVisibilityChanged -= OnObjectVisibilityChanged;
     }
 }
